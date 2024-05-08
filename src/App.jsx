@@ -137,7 +137,6 @@ function App() {
 const handleDelete = (productId) => {
   setproducts(currentProducts => {
     const updatedProducts = currentProducts.filter(product => product.id !== productId);
-    console.log(currentProducts);
     return updatedProducts;
   });
 };
